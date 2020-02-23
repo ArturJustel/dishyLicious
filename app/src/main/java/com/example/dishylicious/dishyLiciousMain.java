@@ -40,5 +40,6 @@ public class dishyLiciousMain extends AppCompatActivity {
     private void openRegistrationPage(){
         Intent registration = new Intent(this, registationPage.class);
         startActivity(registration);
+        // hello
     }
 }
