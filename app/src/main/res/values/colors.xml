@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#E0E0E0</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="dishyLiciousRed">#EE3851</color>
+    <color name="dishyLiciousPink">#FFC7C7</color>
+    <color name="dishyLiciousWhite">#FFFFFF</color>
+    <color name="dishyLiciousGold">#FFC700</color>
+    <color name="dishyLiciousLoginText">#707070</color>
+</resources>

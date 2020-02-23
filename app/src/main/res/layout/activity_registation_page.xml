@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dishyLiciousRed"
+    tools:context=".registationPage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/image__1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <ImageView
+        android:id="@+id/backBtn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/pngguru_com"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/pngfuel_com"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="265dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="525dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/google"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/login_userName_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColor="@color/dishyLiciousWhite"
+        android:textColorHint="@color/dishyLiciousWhite"
+        android:backgroundTint="@color/dishyLiciousGold"
+        android:gravity= "center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/login_userPassword_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColor="@color/dishyLiciousWhite"
+        android:textColorHint="@color/dishyLiciousWhite"
+        android:backgroundTint="@color/dishyLiciousGold"
+        android:gravity= "center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="380dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/login_confirmPassword_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Confirm Password"
+        android:textColor="@color/dishyLiciousWhite"
+        android:textColorHint="@color/dishyLiciousWhite"
+        android:backgroundTint="@color/dishyLiciousGold"
+        android:gravity= "center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="460dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/join2_btn"
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="600dp"
+        android:background="@color/dishyLiciousPink"
+        android:gravity="center"
+        android:text="Next ->"
+        android:textSize="20sp"
+        />
+
+</RelativeLayout>

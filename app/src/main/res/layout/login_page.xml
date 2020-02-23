@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dishyLiciousRed"
+    tools:context=".dishyLiciousMain" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/image__1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/login_userName_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColor="@color/dishyLiciousWhite"
+        android:textColorHint="@color/dishyLiciousWhite"
+        android:backgroundTint="@color/dishyLiciousGold"
+        android:gravity= "center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="300dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/login_userPassword_tx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:textColor="@color/dishyLiciousWhite"
+        android:textColorHint="@color/dishyLiciousWhite"
+        android:backgroundTint="@color/dishyLiciousGold"
+        android:gravity= "center"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="380dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.ebanx.swipebtn.SwipeButton
+        android:id="@+id/swipe_enter_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="52dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="480dp"
+        android:layout_marginEnd="50dp"
+        app:inner_text_background="@android:color/transparent"
+        app:inner_text="---Go DishyLicious-->"
+        app:inner_text_color="@color/dishyLiciousWhite"
+        app:inner_text_size="18sp"
+        app:inner_text_bottom_padding="12dp"
+        app:inner_text_top_padding="12dp"
+        app:button_image_disabled="@drawable/pin_map_location_2"
+        app:button_left_padding="-5dp"
+        app:button_right_padding="-4dp"
+        app:button_bottom_padding="-5dp"
+        />
+
+    <TextView
+        android:id="@+id/join_btn"
+        android:layout_width="450dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="600dp"
+        android:background="@color/dishyLiciousPink"
+        android:gravity="center"
+        android:text="Do you want to join us ?"
+        android:textSize="20sp"
+        />
+
+
+</RelativeLayout>
